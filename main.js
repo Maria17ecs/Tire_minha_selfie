@@ -16,7 +16,7 @@ var Content = event.results[0][0].transcript;
 
     document.getElementById("textbox").innerHTML = Content;
     console.log(Content);
-      if(Content =="tire minha selfie.")
+      if(Content =="Tire minha selfie.")
       {
         console.log("tirando selfie --- ");
         speak();
